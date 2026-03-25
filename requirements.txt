@@ -1,0 +1,10 @@
+jupyter
+ipykernel
+pandas>=2.0
+numpy>=1.26
+openpyxl
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+tabpfn
+scipy>=1.12

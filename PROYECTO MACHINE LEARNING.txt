@@ -1,0 +1,13 @@
+PROYECTO MACHINE LEARNING
+1. EDA.
+2. Preprocesamiento Obligatorio (Valores faltantes , etc).
+	2.1 Train test Split (80% / 20%).
+3. BASELINE MODELO (Regresión logística sin indicar ningún parámetro y lo lanzas con la partición de train y validas con la de validación).
+4. Preprocesamiento adaptado a modelos (StandardScaler, OneHotEncoding).
+5. Probar modelos varios.
+	5.1 Modelo Regresión logística con diccionario de hiperparámetros (Gridsearch, cv 5).
+	5.2 Modelo DecissiónTreeRegresor con diccionario de hiperparámetros (Gridsearch, cv 5).
+	5.3 Modelo RandomForest con diccionario de hiperparámetros (Gridsearch, cv 5).
+	5.4 Modelo TabPfn con diccionario de hiperparámetros (Gridsearch, cv 5).
+6. Del mejor que saques ahí arriba. Entrenas con conjunto completo de train (80% del dataset) y validas con test (20% del dataset) esta partición se hace al inicio del todo.
+	6.1 Con el test ya finalizas , si no lo haces así (error data leakeage).
