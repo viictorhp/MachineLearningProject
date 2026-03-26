@@ -47,7 +47,8 @@ Tras el preprocesamiento (Pipeline), se ha realizado:
 - Decision Tree con GridSearchCV
 - Random Forest con GridSearchCV
 - XGBoost con GridSearchCV
-El mejor modelo es XGBoost con un valor AUC de 0.7938
+
+El mejor modelo es **XGBoost con un valor AUC de 0.7938**.
 
 ### 6. Propuesta de Valor y Estrategia de Negocio
 El modelo entrenado genera una **probabilidad de recompra ($P$)** para cada cliente, permitiendo al equipo de negocio tomar acciones personalizadas:
